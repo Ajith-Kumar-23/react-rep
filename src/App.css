@@ -1,38 +1,150 @@
-.App {
+#sign-in{
+  border : 1.5px solid rgb(49, 241, 145);
+  color: rgb(49, 241, 145);
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#sign-in:hover{
+  background: rgb(49, 241, 145);
+  color: white;
+}
+.title-t{
+  color: rgb(49, 241, 145);
+  font-size: 40px;
+}
+.tealvue
+{
+  font-family: cursive;  
+  font-size: 30px !important;
+}
+.navbar{
+  border-bottom: 2px solid rgba(243, 234, 234, 0.877);
+}
+.background
+{
+  bottom: 0%;
+  background-image: url('./Components/images/back.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 71.8vh;
+  width: 100%;
+  color: #f5f5f5;
+  
+}
+.flex
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border:1px solid rgb(228, 220, 220);  
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  float: right;
+  padding:30px;
+  margin-top: 8%;
+}
+.Box-title
+{
+  margin-top: 8%;
+  font-family: Bahnschrift SemiBold;
+  font-size: 25px;
+}
+.login{
+  color: rgb(49, 241, 145);
+  margin-bottom: 3%;
+}
+.footer
+{
+  padding: 10px 10px 0px 10px;
+  width: 100%;  
+  background: rgb(0, 0, 0);
+  color: white;
+}
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  color: rgb(194, 188, 188);
+  min-width: 50px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-field {
+  width: 100%;
+  padding: 10px;
+  padding-left: 40px;
+  border:none;
+  border-bottom: 1px solid rgb(221, 217, 217);
+  outline: none;
+  color: #cec7c7;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-field:hover{
+  border-bottom: 2px solid rgb(221, 217, 217);
+  transition: 0.3s all ease;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.SUBMIT{
+  background: rgb(49, 241, 145);
+  padding:10px;
+  padding-inline: 30px;
+  border:none;
+  border-radius: 25px;
+  color: white;
+  font-weight: 700;
+}
+.SUBMIT:hover{
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388; 
+}
+.footer-flex
+{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+.box-2
+{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.footer-icon
+{
+  font-size: 20px;
+  cursor: pointer;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.create-acc{
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+.create-acc:hover{
+  border-bottom: 1px solid rgb(184, 178, 178);
+  color: #cec7c7;
+}
+.forget-pass
+{
+  color: rgb(189, 184, 184);
+  text-decoration: none;
+  border-bottom: 1px solid rgb(189, 184, 184);
+  padding:5px;
+}
+.forget-pass:hover{
+  color: #a79f9f;
+  padding:10px;
+  letter-spacing: 2px;
 }
